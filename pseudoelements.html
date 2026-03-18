@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo elements</title>
+    <style>
+        body{
+            background-color: darkblue;
+            height: 100vh;
+            text-align: center;
+            color:white;
+        }
+        .welcome-heading::before{
+            content: "😜";
+        }
+        .welcome-heading:hover{
+            color: deepskyblue;
+            background-color: blueviolet;
+            /*height: 50%;
+            width: 50%;*/
+        }
+        .welcome-heading::after{
+            content: "🎉";
+        }
+        h3::first-letter{
+            color: darkred;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        h3::selection{
+            background-color: purple;
+        }
+        p::first-line{
+            color:cornflowerblue;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .anchor:visited{
+            color:darkgreen;
+        }
+        .anchor:link{
+            color:aqua;
+        }
+        .anchor:active{
+            color:cornflowerblue;
+        }
+        .anchor.hover{
+            color:crimson;
+        }
+        .anchor-pseudo:link{
+            color:azure;
+            text-decoration: none;
+            text-transform: uppercase;
+
+        }
+        .anchor-pseudo:link{
+            color: crimson;   
+        }
+        .anchor-pseudo:active{
+            color: darkblue;
+        }
+        .anchor-pseudo:hover{
+            color: darkorchid;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="welcome-heading">welcome to amazon big billion days festival</h1>
+    <h3>offers on every items
+        <span style ="color:gainsboro; font-weight: bold; font-size:20px;">
+            flat 30% discount.</span></h3>
+    <button>join now</button>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br>
+        elit.beates officials harum nesciunt impedit ab<br>
+        doloremque temporibus recusandae nam repellendus,<br>
+    </p>
+    <h3><a class="anchor" href="https://www.google.com">Go to google</a></h3>
+</body>
+</html>

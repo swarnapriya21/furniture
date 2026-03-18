@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Furniture Store</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<style>
+.home{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer h6,i{
+    font-size: 0.8rem;
+    color: gainsboro;
+}
+footer {
+    background:black;
+    color:#f5f5dc;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<div class="container">
+<a class="navbar-brand" href="#">FurnitureWorld</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#Products">Products</a></li>
+<li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart"></i></a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="Home" class="home text-center d-flex flex-column justify-content-center align-items-center">
+<h1 class="fw-bold text-white">Premium Furniture Collection</h1>
+<p class="text-white lead">Stylish Furniture • Best Prices • Fast Delivery</p>
+<a href="#Products" class="btn btn-primary">Explore Furniture</a>
+</section>
+
+<!-- PRODUCTS -->
+<section id="Products" class="mt-3">
+<h2 class="fw-bold text-center">Furniture Collection</h2>
+
+<div class="container mt-3 mb-3">
+<div class="row g-3">
+
+<!-- Sofa -->
+<div class="col-md-3">
+<div class="card text-center">
+<img src="https://plus.unsplash.com/premium_photo-1683121150169-4b0f6c92a3ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Luxury Sofa</h5>
+<p>Comfortable and stylish sofa</p>
+<p>₹25,000</p>
+<a href=\"#Payment\" class=\"btn btn-dark\">Add To Cart</a>
+</div>
+</div>
+</div>
+
+<!-- Chair -->
+<div class="col-md-3">
+<div class="card text-center">
+<img src="https://media.istockphoto.com/id/1329937916/photo/scandinavian-domestic-dining-room-interior.webp?a=1&b=1&s=612x612&w=0&k=20&c=pgPp8y_7c4VfW7QPSUOKSbH0xuySskbEC2nZf7TdzSc=" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Wooden Chairs</h5>
+<p>Strong and elegant chair</p>
+<p>₹20,000</p>
+<a href=\"#Payment\" class=\"btn btn-dark\">Add To Cart</a>
+</div>
+</div>
+</div>
+
+<!-- Bed -->
+<div class="col-md-3">
+<div class="card text-center">
+<img src="https://media.istockphoto.com/id/1372779643/photo/computer-graphic-of-a-vintage-apartment-with-art.jpg?s=612x612&w=0&k=20&c=aeAn9MxQetaRXurq7ekFn92Rl_K_YlaqtHopl__ofgI=" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">King Size Bed</h5>
+<p>Spacious and comfortable bed</p>
+<p>₹30,000</p>
+<a href=\"#Payment\" class=\"btn btn-dark\">Add To Cart</a>
+</div>
+</div>
+</div>
+
+<!-- Table -->
+<div class="col-md-3">
+<div class="card text-center">
+<img src="https://images.unsplash.com/photo-1573167278390-0699fb12be46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGRpbmluZyUyMHRhYmxlfGVufDB8fDB8fHww" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Dining Table</h5>
+<p>Perfect for family dining</p>
+<p>₹12,000</p>
+<a href=\"#Payment\" class=\"btn btn-dark\">Add To Cart</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="About" class="bg-light mt-3 p-5">
+<div class="container">
+<div class="row align-items-center">
+
+<div class="col-md-6">
+<img src="https://plus.unsplash.com/premium_photo-1684338795288-097525d127f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZnVybml0dXJlfGVufDB8fDB8fHww" class="img-fluid rounded">
+</div>
+
+<div class="col-md-6">
+<h2 class="fw-bold">About FurnitureWorld</h2>
+<p>FurnitureWorld provides premium quality furniture including sofas, beds, chairs and tables at affordable prices.</p>
+<a href="#" class="btn btn-outline-dark">Learn More</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PAYMENT -->
+<section id="Payment" class="mt-3">
+<h2 class="fw-bold text-center">Payment Details</h2>
+
+<div class="container">
+<div class="row justify-content-center">
+
+<div class="col-md-6">
+<form>
+<input type="number" placeholder="Card Number" class="form-control mb-3">
+<input type="text" placeholder="UPI ID" class="form-control mb-3">
+<input type="text" placeholder="Card Holder Name" class="form-control mb-3">
+</form>
+
+<a href="#" class="btn btn-success w-100">Pay Now</a>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="Contact" class="mt-3">
+<h2 class="fw-bold text-center">Contact Us</h2>
+
+<div class="container">
+<div class="row justify-content-center">
+
+<div class="col-md-6">
+<form>
+<input type="text" placeholder="Name" class="form-control mb-3">
+<input type="email" placeholder="Email" class="form-control mb-3">
+<textarea rows="3" placeholder="Message" class="form-control mb-3"></textarea>
+</form>
+
+<a href="#" class="btn btn-dark w-100">Send Message</a>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-navy-blue p-3 text-center mt-5">
+<h6>© 2026 FurnitureWorld. All Rights Reserved.</h6>
+<i class="bi bi-facebook p-2"></i>
+<i class="bi bi-instagram p-2"></i>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
+

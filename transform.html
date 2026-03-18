@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transform</title>
+    <style>
+        body{
+            background-color: darkblue;
+            height: 100vh;
+            padding: 20px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            height: 130vh;
+            border: 1px solid #dbdbdb;
+            padding: 10px;
+            margin: 10px;
+        }
+        .translate{
+            height: 180px;
+            width: 180px;
+            background-color: blueviolet;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .translate:hover{
+            transform: translateY(-30px);
+        }
+        .rotate{
+            height: 180px;
+            width: 180px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .rotate:hover{
+            transform: rotate(45deg);
+        }
+        .rotate-x{
+            height: 180px;
+            width: 180px;
+            background-color: crimson;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .rotate-x:hover{
+            transform: rotateX(-40deg);
+        }
+        .skew{
+            height: 180px;
+            width: 180px;
+            background-color: chocolate;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .skew:hover{
+            transform: skew(200deg);
+        }
+        .scale{
+            height: 180px;
+            width: 180px;
+            background-color: chocolate;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .scale:hover{
+            transform: scale(0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="translate"></div>
+        <div class="rotate"></div>
+        <div class="rotate-x"></div>
+        <div class="skew"></div>
+        <div class="scale"></div>
+    </div>
+</body>
+</html>

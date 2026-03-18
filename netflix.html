@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+"></link>
+    <title>Netflix</title>
+    <style>
+        body{
+            /*background-image:url("https://images.unsplash.com/photo-1699891730669-2d15cf3a5979?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");*/
+            background-size:cover;
+            background: linear-gradient(to right,pink,lightblue,darkblue,grey);
+            color: white;
+            font-family:'gill sans';
+        }
+        .main-heading{
+            text-align: center;
+            color: darkorchid;
+            font-family: "inconsolata","monospace";
+            text-decoration: underline;
+            text-shadow:4px 4px gray ;/*horizontal line, vertical line, blur radius,shadow color*/
+        }
+        .bold{
+          font-weight:bold;  
+          font-size: 25px;
+          font-style: italic;
+          color: cornflowerblue;
+          text-transform: capitalize;
+        }
+        button{
+            background-color:crimson ;
+            color: white;
+            font-size: 12px;
+        }
+        .tv-details{
+            background-color:blueviolet;
+            width:40%;
+            height: 120px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .downloads-details{
+            background-color:darkblue;
+            width:40%;
+            height: 120px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .poppers-details{
+            background-color:cornflowerblue;
+            width:40%;
+            height: 120px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .message-details{
+            background-color:steelblue;
+            width:40%;
+            height: 120px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .line-height{
+            line-height: 2.5;
+        }
+    </style>
+</head>
+<body>
+    <section id="home">
+        <h1 class="main-heading">unlimited movies, shows and more</h1>
+        <h4>start at Rs.149/.cancel at anytime.</h4>
+        <p class="line-height">ready to watch? your email to create or restart your membership.</p>
+        <input type="email" placeholder="enter mail address/">
+        <button>get started</button>
+    </section>
+    <section id="details">
+        <div class="tv-details">
+            <h3>more reasons to join</h3>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            <span>📺</span>
+        </div>
+        <div class="downloads-details">
+            <h3>Download your shows to watch offline</h3>
+            <p>Save your favourites easily and always have something to watch.</p>
+            <span>📩</span>
+        </div>
+        <div class="poppers-details">
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <span>🎉</span>
+        </div>
+        <div class="message-details">
+            <h3>Create profiles for kids</h3>
+            <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+            <span>💭</span>
+        </div>
+    </section>
+</body>
+</html>
